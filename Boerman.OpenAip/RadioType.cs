@@ -31,6 +31,6 @@ namespace Boerman.OpenAip
         RADAR,
         TOWER,
         UNICOM,
-        VOLME
+        VOLMET
     }
 }
