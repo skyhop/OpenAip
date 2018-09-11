@@ -29,7 +29,7 @@ namespace Boerman.OpenAip.Parsers.Intermediate
         public class WAYPOINTS
         {
             [XmlElement("AIRPORT")]
-            public AIRPORT Airport { get; set; }
+            public AIRPORT[] Airport { get; set; }
         }
 
         [Serializable]
@@ -102,7 +102,7 @@ namespace Boerman.OpenAip.Parsers.Intermediate
             [XmlElement("NAME")]    
             public string Name { get; set; }
             [XmlElement("SFC")]
-            public string Sfc { get; set; }
+            public string Surface { get; set; }
             [XmlElement("LENGTH")]
             public UNITVALUE Length { get; set; }
             [XmlElement("WIDTH")]

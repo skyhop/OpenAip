@@ -73,6 +73,10 @@ namespace Boerman.OpenAip.Tests
 </AIRPORT>
 </WAYPOINTS>
 </OPENAIP>").FirstOrDefault();
+
+            Assert.AreEqual(AirportType.AF_CIVIL, r.Type);
+            Assert.AreEqual((decimal)111.11, r.Radios[1].Frequency);
+            Assert.AreEqual(550, r.Runways[1].Directions[0].LDA);
         }
     }
 }
