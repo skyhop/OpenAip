@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Corstian Boerman</Authors>
+    <Company>the Boerman Company</Company>
+    <Description>This library contains utilities to help with parsing .aip files from the OpenAIP project.</Description>
+    <Copyright>Corstian Boerman</Copyright>
+    <RepositoryUrl>https://github.com/Boerman/OpenAip</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>Initial release. Open issues on GitHub, will ya?</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
