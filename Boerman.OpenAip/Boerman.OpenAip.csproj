@@ -10,6 +10,8 @@
     <RepositoryUrl>https://github.com/Boerman/OpenAip</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageReleaseNotes>Initial release. Open issues on GitHub, will ya?</PackageReleaseNotes>
+    <LangVersion>latest</LangVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
