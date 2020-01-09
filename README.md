@@ -1,5 +1,8 @@
-OpenAip
-=======
+<a href="https://skyhop.org"><img src="https://app.skyhop.org/assets/images/skyhop.svg" width=200 alt="skyhop logo" /></a>
+
+----
+
+# OpenAip
 
 This repository contains a library written in C# to read .aip files from the OpenAIP project.
 
